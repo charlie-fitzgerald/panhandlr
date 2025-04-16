@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu-btn {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.menu-btn:hover {
+  transform: rotate(90deg) scale(1.2); /* Cool rotation + slight zoom */
+  color: #4FC3F7; /* Matches the highlight color */
+}
